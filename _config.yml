@@ -1,0 +1,50 @@
+# Site settings
+title: Jees Kim - Software Engineer and Maker
+description: "Pesonal homepage Jees 2017.06 ..."
+baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+url: "http://jees7.github.io/"
+# User settings
+username: Jeesang Kim
+user_title: Jees Kim - Software Engineer and Maker
+email: arsenalkim@gmail.com
+twitter_username: JeesTweet
+github_username:  Jees7
+gplus_username:  Jees Kim
+disqus_username: Jees Kim
+profile_picture: "https://c1.staticflickr.com/4/3800/32641621020_f893189d28_m.jpg"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: asciilang
+    url: https://github.com/victorvoid/asciilang
+  - name: vim-frontend
+    url: https://github.com/victorvoid/vim-frontend
+  - name: generator-capybara
+    url: https://github.com/victorvoid/generator-capybara 
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
