@@ -9,3 +9,5 @@ Personal homepage - Jees 2017.06
 * `jekyll serve` jekyll 서비스 실행
 * localhost:4000에서 확인
 
+## Running on MAC
+맥 환경에서 Jekyll을 설치 및 실행 방법
